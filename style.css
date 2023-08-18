@@ -14,7 +14,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    background-color: #fff;
+    background-color: #23313D ;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     padding: 0 7%;
     display: flex;
@@ -25,7 +25,7 @@ header {
 
 header .logo {
     font: bolder 25px Arial, Helvetica, sans-serif;
-    color: #333;
+    color: #79B3BD;
 }
 
 header .navbar ul {
@@ -40,26 +40,26 @@ header .navbar ul li {
 header .navbar ul li a {
     font: 20px Arial, Helvetica, sans-serif;
     padding: 20px;
-    color: #333;
+    color: #C1D7DA;
     display: block;
 }
 
 header .navbar ul li a:hover {
-    background-color: #333;
-    color: #fff;
+    background-color: #1D94A7;
+    color: #23313D;
 }
 
 header .navbar ul li ul {
     position: absolute;
     left: 0;
     width: 200px;
-    background-color: #fff;
+    background-color: #1D94A7;
     display: none;
 }
 
 header .navbar ul li ul li {
     width: 100%;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: 1px solid #23313D;
 }
 
 header .navbar ul li ul li ul {
@@ -79,7 +79,7 @@ header .navbar ul li:hover > ul {
 
 header label {
     font-size: 25px;
-    color: #333;
+    color: #79B3BD;
     cursor: pointer;
     display: none;
 }
@@ -98,8 +98,8 @@ header label {
         top: 100%;
         left: 0;
         right: 0;
-        background-color: #fff;
-        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        background-color: #23313D;
+        border-top: 1px solid #23313D;
         display: none;
     }
 
@@ -113,7 +113,7 @@ header label {
     }
 
     header .navbar ul li ul li {
-        background-color: #eee;
+        background-color: #23313D;
     }
 
     header .navbar ul li ul li ul {
@@ -121,7 +121,7 @@ header label {
         left: 0;
     }
     header .navbar ul li ul li ul li {
-        background-color: gray;
+        background-color: #23313D;
     }
 
     #menu-bar:checked ~ .navbar {
