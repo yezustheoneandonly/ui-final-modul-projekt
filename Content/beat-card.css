@@ -1,0 +1,123 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #e0e5ec;
+  font-family: "Roboto", sans-serif;
+}
+
+.beat-card {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content.neu {
+  width: 312px;
+  height: 500px;
+  background-color: #23313D ;
+  border-radius: 2em;
+  box-sizing: border-box;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+}
+
+.content .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 0.75em;
+    color: #79B3BD;
+    margin-bottom: 2em;
+  }
+
+  .artist-cover {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .artist-cover .artist-overlay {
+    background: #fff;
+    width: 248px;
+    height: 248px;
+    z-index: 2;
+    border-radius: 15px;
+    position: absolute;
+    opacity: 0.35;
+    -webkit-clip-path: ellipse(61% 64% at 82% 56%);
+clip-path: ellipse(61% 64% at 82% 56%);
+  }
+
+    img {
+      width: 100%;
+      border-radius: 15px;
+    }
+    .song-title {
+      text-align: center;
+      padding-bottom: 0;
+      margin-bottom: 0;
+      color: #79B3BD
+    }
+    .artist-title {
+      text-align: center;
+      padding: 1em 0;
+      margin: 0;
+      font-size: 0.85em;
+      color: #79B3BD
+    }
+  
+
+  .track {
+    margin-top: 1em;
+    height: 10px;
+  }
+
+  .track div {
+    width: 42%;
+    height: 100%;
+    background: #23313D;
+    opacity: 0.75;
+    border-radius: 15px;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1em 0;
+  }
+
+  .lyrics {
+    color: #79B3BD;
+    margin-top: 2em;
+    text-align: center;
+    font-size: 0.75em;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+.neu {
+  box-shadow: -5px -5px 15px 0px #1D94A7, 5px 5px 15px 0px #C1D7DA ;
+  background: #23313D ;
+  border-radius: 2em;
+  border: 0;
+}
+
+.btn {
+  padding: 15px;
+  border-radius: 30px;
+  color: #79B3BD;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn .lg {
+    font-size: 1em;
+  }
+ 
+
+
