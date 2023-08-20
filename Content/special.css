@@ -15,8 +15,8 @@
   
   .slideshow .sh .sh-content { 
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
     top: 0px;
     left: 0px;
     color: transparent;
@@ -31,14 +31,17 @@
   
   
   .slideshow .sh:nth-child(1) .sh-content { 
-      background-image: url("https://uploads-ssl.webflow.com/5976a3655fcd654cb3d604ca/5bfa14d04ae3429879830ee4_home-hero.jpg"); 
+      background-image: url(/Images/rabatt-special-card.png);
+       
   }
   .slideshow .sh:nth-child(2) .sh-content { 
-      background-image: url("https://uploads-ssl.webflow.com/5976a3655fcd654cb3d604ca/5c00c9ecd82b40364fc97f4b_bridge.jpg");
+      background-image: url(/Images/snoop-dogg-specialcard.png);
+      
       animation-delay: 6s; 
   }
   .slideshow .sh:nth-child(3) .sh-content { 
-      background-image: url("https://uploads-ssl.webflow.com/5976a3655fcd654cb3d604ca/5c00c9963ea913260bb41b0e_powerlines.jpg");
+      background-image: url(/Images/ice-cube-specialcard.png);
+      
       animation-delay: 12s; 
   }
     
