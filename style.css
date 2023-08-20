@@ -11,6 +11,8 @@ body {
     background-image: url(./Images/lost-places-1510592_1920.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100vw;
+    height: 100vh;
 }
 
 /* NavBar */
@@ -30,7 +32,7 @@ header {
 }
 
 header .logo {
-    font: bolder 25px 'Grape Nuts', cursive;
+    font: bolder 35px 'Grape Nuts', cursive;
     color: #79B3BD;
     font-weight: bolder;
 }
