@@ -118,6 +118,16 @@ clip-path: ellipse(61% 64% at 82% 56%);
 .btn .lg {
     font-size: 1em;
   }
+
+  /* Top 10 Playlist */
+
+  .playlist {
+    color:#79B3BD;
+  }
+
+  .pl:hover {
+    background-color: #1D94A7
+  }
  
 
 
