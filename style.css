@@ -91,7 +91,7 @@ header .navbar ul li:hover > ul {
     min-height: 100vh;
 }
 
-.specials {
+.animation {
     grid-area: 2/2/4/8;
     backdrop-filter: blur(10px);
 }
@@ -126,6 +126,18 @@ header .navbar ul li:hover > ul {
     flex-wrap: wrap;
 }
 
+.drill h1 {
+    font-size: 30px;
+}
+
+.trap h1 {
+    font-size: 30px;
+}
+
+.bommbap h1 {
+    font-size: 30px;
+}
+
 /* Featuring */
 
 .feat {
@@ -138,7 +150,12 @@ header .navbar ul li:hover > ul {
     justify-content: space-evenly;
     margin-bottom: 50px;
     margin-top: 50px;
+    
 
+}
+
+.feat h1 {
+    font-size: 30px;
 }
 
 /* Shout out */
@@ -152,7 +169,12 @@ header .navbar ul li:hover > ul {
     backdrop-filter: blur(10px);
     justify-content: space-evenly;
     margin-bottom: 50px;
+    
 
+}
+
+.s-o h1 {
+    font-size: 30px;
 }
 
 
@@ -233,4 +255,8 @@ header label {
     height: 150px;
     z-index: 0; 
   }
+
+  .top10 {
+    width: 270px;
+}
 }
