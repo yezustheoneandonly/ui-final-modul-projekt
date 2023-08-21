@@ -111,6 +111,10 @@ header .navbar ul li:hover > ul {
 .beatpool {
     display: flex;
     flex-direction: column;
+    text-align: center;
+    color: #23313D ;
+    backdrop-filter: blur(10px);
+    
 
 }
 
