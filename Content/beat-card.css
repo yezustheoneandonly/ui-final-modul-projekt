@@ -101,6 +101,13 @@
     font-size: 1em;
   }
 
+  .neu:focus {
+    box-shadow: inset -5px -5px 15px 0px #1d94a7, inset 5px 5px 15px 0px #c1d7da;
+    background: #23313d;
+    border-radius: 2em;
+    border: 0;
+}
+
   
 
   /* Top 10 Playlist */
