@@ -95,6 +95,10 @@ header .navbar ul li:hover > ul {
     backdrop-filter: blur(10px);
 }
 
+.top-rated-dl {
+    grid-area: 2/9/4/11;
+}
+
 
 
 
