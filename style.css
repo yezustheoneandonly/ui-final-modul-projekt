@@ -119,7 +119,7 @@ header .navbar ul li:hover > ul {
 
 }
 
-.boombap, .trap, .drill {
+.contain {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 50px;
@@ -130,13 +130,14 @@ header .navbar ul li:hover > ul {
 
 .feat {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
     color: #23313D ;
     backdrop-filter: blur(10px);
     justify-content: space-evenly;
     margin-bottom: 50px;
+    margin-top: 50px;
 
 }
 
@@ -144,7 +145,7 @@ header .navbar ul li:hover > ul {
 
 .s-o {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
     color: #23313D ;
@@ -219,4 +220,17 @@ header label {
     #menu-bar:checked ~ .navbar {
         display: initial;
     }
+
+    .landing-page {
+        display: flex;
+        justify-content: center;
+    }
+
+    .slideshow,
+  .slideshow:after, .sh-content { 
+
+    width: 400px;
+    height: 150px;
+    z-index: 0; 
+  }
 }
