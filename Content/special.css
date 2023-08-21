@@ -21,8 +21,8 @@
     background-repeat: no-repeat;
     opacity: 0;
     z-index: 0;
-    animation: imageAnimation 30s linear infinite 0s;
-    
+    animation: imageAnimation 18s linear infinite 0s;
+    -webkit-animation: imageAnimation 18s linear infinite 0s;
 }
   
   
@@ -47,19 +47,13 @@
   @keyframes imageAnimation { 
       0% { opacity: 0; animation-timing-function: ease-in; }
       8% { opacity: 1; animation-timing-function: ease-out; }
-      17% { opacity: 1 }
-      25% { opacity: 0 }
+      22% { opacity: 1 }
+      35% { opacity: 0 }
       100% { opacity: 0 }
   }
   
   
-  @keyframes titleAnimation { 
-      0% { opacity: 0 }
-      8% { opacity: 1 }
-      17% { opacity: 1 }
-      19% { opacity: 0 }
-      100% { opacity: 0 }
-  }
+  
   
   
   .no-cssanimations .cb-slideshow .sh .sh-content {

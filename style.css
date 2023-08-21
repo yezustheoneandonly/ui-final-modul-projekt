@@ -111,7 +111,7 @@ header .navbar ul li:hover > ul {
 .beatpool {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    
     text-align: center;
     color: #23313D ;
     backdrop-filter: blur(10px);
@@ -123,6 +123,7 @@ header .navbar ul li:hover > ul {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 50px;
+    flex-wrap: wrap;
 }
 
 /* Featuring */
