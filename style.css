@@ -104,13 +104,14 @@ header .navbar ul li:hover > ul {
 /* Beatpool */
 
 .single {
-    height: 500px;
+    height: 470px;
     width: 300px;
 }
 
 .beatpool {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     text-align: center;
     color: #23313D ;
     backdrop-filter: blur(10px);
@@ -122,6 +123,34 @@ header .navbar ul li:hover > ul {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 50px;
+}
+
+/* Featuring */
+
+.feat {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    color: #23313D ;
+    backdrop-filter: blur(10px);
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+
+}
+
+/* Shout out */
+
+.s-o {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    color: #23313D ;
+    backdrop-filter: blur(10px);
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+
 }
 
 
