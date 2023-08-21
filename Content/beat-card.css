@@ -27,7 +27,7 @@ body {
 .content .title {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     font-size: 0.75em;
     color: #79B3BD;
     margin-bottom: 2em;
@@ -37,18 +37,6 @@ body {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-  }
-
-  .artist-cover .artist-overlay {
-    background: #fff;
-    width: 248px;
-    height: 248px;
-    z-index: 2;
-    border-radius: 15px;
-    position: absolute;
-    opacity: 0.35;
-    -webkit-clip-path: ellipse(61% 64% at 82% 56%);
-clip-path: ellipse(61% 64% at 82% 56%);
   }
 
     img {
