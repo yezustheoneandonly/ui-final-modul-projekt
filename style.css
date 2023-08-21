@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Grape Nuts', cursive;
     text-transform: capitalize;
     text-decoration: none;
 }
@@ -96,7 +95,8 @@ header .navbar ul li:hover > ul {
 }
 
 .top-rated-dl {
-    grid-area: 2/9/4/11;
+    grid-area: 2/10/4/12;
+    padding-top: 20px;
 }
 
 

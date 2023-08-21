@@ -1,6 +1,4 @@
 .beat-card {
-  /* width: 100vw;
-  height: 100vh; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,14 +39,15 @@
       text-align: center;
       padding-bottom: 0;
       margin-bottom: 0;
-      color: #79B3BD
+      color: #79B3BD;
+      padding-top: 15px;
     }
     .artist-title {
       text-align: center;
       padding: 1em 0;
       margin: 0;
       font-size: 0.85em;
-      color: #79B3BD
+      color: #79B3BD;
     }
   
 
