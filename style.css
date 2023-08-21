@@ -10,8 +10,10 @@ body {
     background-image: url(./Images/lost-places-1510592_1920.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     width: 100vw;
     height: 100vh;
+    
 }
 
 /* NavBar */
@@ -97,6 +99,25 @@ header .navbar ul li:hover > ul {
 .top-rated-dl {
     grid-area: 2/10/4/12;
     padding-top: 20px;
+}
+
+/* Beatpool */
+
+.single {
+    height: 500px;
+    width: 300px;
+}
+
+.beatpool {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.boombap, .trap, .drill {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
 }
 
 
