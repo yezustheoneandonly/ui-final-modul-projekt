@@ -81,6 +81,29 @@ header .navbar ul li:hover > ul {
     display: initial;
 }
 
+/* Landingpage */
+
+.landing-page {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    min-height: 100vh;
+}
+
+.specials {
+    grid-area: 2/2/4/8;
+    backdrop-filter: blur(10px);
+}
+
+
+
+
+
+
+
+
+
+
 /* mobile */
 
 #menu-bar {

@@ -5,28 +5,25 @@
   /** SLIDESHOW **/
   .slideshow,
   .slideshow:after { 
-    top: -16px; 
-    position: fixed;
+    
     width: 100%;
     height: 100%;
-    left: 0px;
     z-index: 0; 
   }
   
-  .slideshow .sh .sh-content { 
+  .slideshow .sh .sh-content {
     position: absolute;
-    width: 50%;
-    height: 50%;
-    top: 0px;
-    left: 0px;
+    width: 100%;
+    height: 100%;
     color: transparent;
     background-size: contain;
-    background-position: 50% 50%; 
+    background-position: 50% 50%;
     background-repeat: no-repeat;
     opacity: 0;
     z-index: 0;
-    animation: imageAnimation 30s linear infinite 0s; 
-  }
+    animation: imageAnimation 30s linear infinite 0s;
+    
+}
   
   
   
